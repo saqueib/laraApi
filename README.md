@@ -22,7 +22,7 @@ Once all the dependencies have been installed you can modify the `.env` file to 
 php artisan serve
 ```
 
-Thats it, Now you can access [http://localhost:8000/api/free]() to access public route.
+Thats it, Now you can access [http://localhost:8000/api/free](http://localhost:8000/api/free) to access public route.
 
 ### Routes
 
