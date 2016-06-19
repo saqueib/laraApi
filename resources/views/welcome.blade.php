@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Laravel</title>
+        <title>LaraApi</title>
 
         <link href="https://fonts.googleapis.com/css?family=Lato:100" rel="stylesheet" type="text/css">
 
@@ -33,12 +33,18 @@
             .title {
                 font-size: 96px;
             }
+            .sub-title {
+                font-size: 18px;
+                color: #999;
+                font-weight: normal;
+            }
         </style>
     </head>
     <body>
         <div class="container">
             <div class="content">
-                <div class="title">Laravel 5</div>
+                <div class="title">LaraApi</div>
+                <h5 class="sub-title">Start Building REST API in seconds</h5>
             </div>
         </div>
     </body>
