@@ -11,9 +11,15 @@ class ExampleTest extends TestCase
      *
      * @return void
      */
-    public function testBasicExample()
+    public function testLandingPage()
     {
         $this->visit('/')
-             ->see('Laravel 5');
+             ->see('LaraApi');
+    }
+
+    public function testPublicRoute()
+    {
+        $this->visit('/api/free')
+             ->see('Welcome Guest, Its a public route');
     }
 }
